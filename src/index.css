@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  --color-acre-green: #174d35;
+  --color-acre-green-dark: #0f3323;
+  --color-acre-green-mid: #236b4a;
+  --color-acre-gold: #f2b544;
+  --color-acre-gold-dark: #d49a2a;
+  --color-acre-cream: #f8f1e3;
+  --color-acre-cream-dark: #efe4d0;
+  --color-acre-ink: #1a241d;
+  --font-display: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+  --font-sans: "Source Sans 3", ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  color: var(--color-acre-ink);
+  background: var(--color-acre-cream);
+}
+
+#root {
+  min-height: 100svh;
+}
+
+h1,
+h2,
+h3,
+.font-display {
+  font-family: var(--font-display);
+}
+
+:focus-visible {
+  outline: 3px solid #f2b544;
+  outline-offset: 2px;
+}
+
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -3rem;
+  z-index: 80;
+  border-radius: 0.4rem;
+  background: #174d35;
+  color: #f8f1e3;
+  padding: 0.5rem 0.9rem;
+}
+
+.skip-link:focus {
+  top: 1rem;
+}

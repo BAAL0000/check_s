@@ -1,0 +1,52 @@
+const q = 'auto=format&fit=crop&w=1400&q=80'
+
+export const images = {
+  heroFarm:
+    `https://images.unsplash.com/photo-1500595046743-cd271d694d30?${q}`,
+  liveBirds:
+    `https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?${q}`,
+  rhodeIsland:
+    `https://images.unsplash.com/photo-1563281577-a7be47e298d7?${q}`,
+  countryBirds:
+    `https://images.unsplash.com/photo-1612170153139-6f2212e7e0f6?${q}`,
+  chicks:
+    `https://images.unsplash.com/photo-1509479100390-f83a8349e79c?${q}`,
+  barredRocks:
+    `https://images.unsplash.com/photo-1441123285228-1448e6112fdf?${q}`,
+  wholeChicken:
+    `https://images.unsplash.com/photo-1604503468506-a8da13d82791?${q}`,
+  chickenPieces:
+    `https://images.unsplash.com/photo-1598103442097-8b74394b95c6?${q}`,
+  breastFillets:
+    `https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?${q}`,
+  drumsticks:
+    `https://images.unsplash.com/photo-1527477396000-e27163b481c2?${q}`,
+  mixedEggs:
+    `https://images.unsplash.com/photo-1498654077810-12c21d4ce6eb?${q}`,
+  brownEggs:
+    `https://images.unsplash.com/photo-1518568814500-bf0f8d125f46?${q}`,
+  jumboEggs:
+    `https://images.unsplash.com/photo-1628088062854-d1870b4553da?${q}`,
+  pastureEggs:
+    `https://images.unsplash.com/photo-1615485290382-441e4d049cb5?${q}`,
+  wholesaleFlock:
+    `https://images.unsplash.com/photo-1633945274309-2c16c9682a8c?${q}`,
+  eggFlats:
+    `https://images.unsplash.com/photo-1569288063643-5d29ad64df09?${q}`,
+  meatCase:
+    `https://images.unsplash.com/photo-1574672280600-4accfa5b6f98?${q}`,
+  farmFields:
+    `https://images.unsplash.com/photo-1464226184884-fa280b87c399?${q}`,
+  farmBarn:
+    `https://images.unsplash.com/photo-1500382017468-9049fed747ef?${q}`,
+  farmWork:
+    `https://images.unsplash.com/photo-1625246333195-78d9c38ad449?${q}`,
+  greenhouse:
+    `https://images.unsplash.com/photo-1416879595882-3373a0480b5b?${q}`,
+  deliveryTruck:
+    `https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?${q}`,
+  deliveryBoxes:
+    `https://images.unsplash.com/photo-1566576695506-1ee8d1348310?${q}`,
+  pastureFlock:
+    `https://images.unsplash.com/photo-1606728035253-49e8a23146de?${q}`,
+} as const
